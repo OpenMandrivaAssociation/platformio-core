@@ -23,7 +23,7 @@ Requires:   python%{pyver}dist(setuptools)
 Requires:   python%{pyver}dist(starlette) >= 0.19
 Requires:   python%{pyver}dist(tabulate) >= 0
 Requires:   python%{pyver}dist(uvicorn) >= 0.16
-Requires:   python%{pyver}dist(wwsproto) >= 1
+Requires:   python%{pyver}dist(wsproto) >= 1
 
 BuildSystem: python
 
