@@ -10,6 +10,21 @@ Summary:   Professional tool for embedded systems engineers and for software dev
 License:    Apache-2.0
 Group:      Development
 
+Requires:   python%{pyver}dist(ajsonrpc) >= 1.2
+Requires:   python%{pyver}dist(bottle) >= 0.13
+Requires:   python%{pyver}dist(click) >= 8.0.4
+Requires:   python%{pyver}dist(colorama)
+Requires:   python%{pyver}dist(marshmallow) >= 3
+Requires:   python%{pyver}dist(pyelftools) >= 0.27
+Requires:   python%{pyver}dist(pyserial) >= 3.5
+Requires:   python%{pyver}dist(requests) >= 2
+Requires:   python%{pyver}dist(semantic-version) >= 2.10
+Requires:   python%{pyver}dist(setuptools)
+Requires:   python%{pyver}dist(starlette) >= 0.19
+Requires:   python%{pyver}dist(tabulate) >= 0
+Requires:   python%{pyver}dist(uvicorn) >= 0.16
+Requires:   python%{pyver}dist(wwsproto) >= 1
+
 BuildSystem: python
 
 %description
