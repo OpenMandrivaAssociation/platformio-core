@@ -3,7 +3,7 @@
 
 Name:       platformio-core
 Version:    6.1.18
-Release:    2
+Release:    3
 URL:        https://github.com/platformio/platformio-core
 Source0:    https://github.com/platformio/platformio-core/archive/refs/tags/v%version.tar.gz#/%name-%version.tar.gz
 Summary:   Professional tool for embedded systems engineers and for software developers who write applications for embedded products.
